@@ -1,5 +1,7 @@
 # blog
 
+This is sample project done on freelance for a student from Ukraine to pass university task.
+
 ## Project setup
 ```
 npm install
