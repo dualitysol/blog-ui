@@ -8,5 +8,6 @@ workflows:
   sample:
     jobs:
       - cypress/run:
-          install-command: npm install && echo hello
-          start-command: npm run test:e2e
+          install-command: npm install
+          start-command: npm start & wait-on http://localhost:8080
+          cypress-command: npm run test:e2e
